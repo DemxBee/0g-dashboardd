@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0G LABS Galileo Testnet V3 Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background-color: #2d2d2d;
+            padding: 20px;
+            border-radius: 10px;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h2 {
+            color: #4CAF50;
+            margin-top: 0;
+        }
+        .steps {
+            margin: 15px 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        .faucet {
+            text-align: center;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>0G LABS Galileo Testnet V3 Dashboard</h1>
+        <div class="faucet">
+            <a href="https://faucet.0g.ai" class="button" target="_blank">🚰 Request Testnet Funds</a>
+        </div>
+    </div>
+
+    <div class="grid">
+        <div class="card">
+            <h2>Zer0 Dex</h2>
+            <div class="steps">
+                <p>➖ Connect Wallet (Testnet)</p>
+                <p>➖ Swap Any Token Pairs</p>
+                <p>➖ Complete Trade</p>
+            </div>
+            <a href="https://test.zer0.exchange/swap" class="button" target="_blank">Launch DEX</a>
+        </div>
+
+        <div class="card">
+            <h2>StorageScan</h2>
+            <div class="steps">
+                <p>➖ Connect Wallet (Testnet)</p>
+                <p>➖ Upload Any File</p>
+                <p>➖ Confirm Transaction</p>
+            </div>
+            <a href="https://storagescan-galileo.0g.ai/tool" class="button" target="_blank">Access Storage</a>
+        </div>
+
+        <div class="card">
+            <h2>Mintair</h2>
+            <div class="steps">
+                <p>➖ Connect Wallet (Testnet)</p>
+                <p>➖ Switch to 0G Network</p>
+                <p>➖ Deploy Contract</p>
+            </div>
+            <a href="https://contracts.mintair.xyz" class="button" target="_blank">Deploy Contracts</a>
+        </div>
+
+        <div class="card">
+            <h2>Conft DNS</h2>
+            <div class="steps">
+                <p>➖ Connect Wallet (Testnet)</p>
+                <p>➖ Search Domain Name</p>
+                <p>➖ Mint Your DNS</p>
+            </div>
+            <a href="https://conft.app/name-service" class="button" target="_blank">Mint Domain</a>
+        </div>
+    </div>
+
+    <div class="faucet">
+        <h3>Blockchain Explorer</h3>
+        <a href="https://chainscan-galileo.0g.ai" class="button" target="_blank">View Explorer</a>
+    </div>
+</body>
+</html>
